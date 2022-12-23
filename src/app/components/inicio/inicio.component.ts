@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Magia } from 'src/app/models/Magia';
+import { Magia } from '../../../../src/app/models/Magia';
 import todasMagias from "../../../assets/data/magias.json"
 
 @Component({
