@@ -7,7 +7,7 @@
         </form>
     </div>
     <div *ngIf=iniciado class="inicio__options">
-        <button id="reset" type="button" (click)="iniciado = false"; isFirst="true">Resetar</button>
+        <button id="reset" type="button" (click)="reset()">Resetar</button>
         <header><h1>Selecione a próxima magia</h1></header>
         <div class="magia__main"><ng-container *ngFor="let magia of magias">
             <app-magias *ngIf="(elementoAtual.includes(magia.elemento) || isFirst) && modAtual == magia.mod"

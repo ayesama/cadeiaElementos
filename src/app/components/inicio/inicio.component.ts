@@ -24,6 +24,11 @@ export class InicioComponent {
     }
   }
 
+  reset() {
+    this.iniciado = false
+    this.isFirst= true
+  }
+
   playerChoice(proximoElemento:string[], proximoMod:number) {
     console.log(proximoElemento)
     console.log(proximoMod)
