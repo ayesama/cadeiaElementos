@@ -30,8 +30,6 @@ export class InicioComponent {
   }
 
   playerChoice(proximoElemento:string[], proximoMod:number) {
-    console.log(proximoElemento)
-    console.log(proximoMod)
     this.elementoAtual = proximoElemento
     this.modAtual = proximoMod
     this.isFirst = false
