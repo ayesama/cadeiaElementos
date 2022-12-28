@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Magia } from '../../../../src/app/models/Magia';
 import todasMagias from "../../../assets/data/magias.json"
+import { MagiasComponent } from '../magias/magias.component';
 
 @Component({
   selector: 'app-inicio',
@@ -10,6 +11,7 @@ import todasMagias from "../../../assets/data/magias.json"
 export class InicioComponent {
   iniciado:boolean = false
   magias:Magia[] = todasMagias
+  magiaSelecionada:any
   mod:number = 0
   modAtual:number = 0
   elementoAtual:string[] = []
@@ -29,9 +31,10 @@ export class InicioComponent {
     this.isFirst= true
   }
 
-  playerChoice(proximoElemento:string[], proximoMod:number) {
-    this.elementoAtual = proximoElemento
-    this.modAtual = proximoMod
+  playerChoice(magia:Magia) {
+    this.elementoAtual = magia.proxElem
+    this.modAtual = magia.proxMod
+    this.magiaSelecionada = magia
     this.isFirst = false
   }
 }

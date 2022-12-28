@@ -5,17 +5,31 @@
             <input value=0 type="number" id="qtdMP" #qtdMP>
             <button id="start" type="submit" (click)="mpParaMod(qtdMP.value)">Iniciar</button> 
         </form>
+        <div class="inicio__footer">
+            <img src="/assets/imgs/Am1.png" alt="Atirador" class="am1">
+            <img src="/assets/imgs/Am2.png" alt="Atiradora" class="am2">
+        </div>
     </div>
     <div *ngIf=iniciado class="inicio__options">
         <button id="reset" type="button" (click)="reset()">Resetar</button>
-        <header><h1>Selecione a próxima magia</h1></header>
-        <div class="magia__main"><ng-container *ngFor="let magia of magias">
-            <app-magias *ngIf="(elementoAtual.includes(magia.elemento) || isFirst) && modAtual == magia.mod"
-                [nome]="magia.nome"
-                [nivel]="magia.nivel.join(', ')"
-                [elemento]="magia.elemento"
-                [img]="magia.img"
-                (click)="playerChoice(magia.proxElem, magia.proxMod)"></app-magias>
+        
+        <ng-container *ngIf="!isFirst">
+            <h2>Você usou:</h2>
+            <div>
+                <h2>{{ magiaSelecionada.nome }} {{ magiaSelecionada.nivel.join(', ') }}</h2>
+                <h2>{{ magiaSelecionada.elemento }}</h2>
+            </div>
+        </ng-container>
+        <h1>Selecione a próxima magia</h1>
+        <div class="magia__main">
+            <ng-container *ngFor="let magia of magias">
+                <app-magias *ngIf="(elementoAtual.includes(magia.elemento) || isFirst) && modAtual == magia.mod"
+                    [nome]="magia.nome"
+                    [nivel]="magia.nivel.join(', ')"
+                    [elemento]="magia.elemento"
+                    [img]="magia.img"
+                    (click)="playerChoice(magia)">
+                </app-magias>
             </ng-container>
         </div>
     </div>
