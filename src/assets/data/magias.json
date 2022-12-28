@@ -1,0 +1,353 @@
+[
+    {
+        "nome": "Pena",
+        "nivel": [1],
+        "mod": 1,
+        "elemento": "agua",
+        "proxMod": 2,
+        "proxElem": ["fogo", "luz"],
+        "img": "pena"
+    },
+    {
+        "nome": "Pena",
+        "nivel": [2],
+        "mod": 2,
+        "elemento": "fogo",
+        "proxMod": 2,
+        "proxElem": ["vento", "luz"],
+        "img": "pena"
+    },
+    {
+        "nome": "Pena",
+        "nivel": [3],
+        "mod": 2,
+        "elemento": "vento",
+        "proxMod": 2,
+        "proxElem": ["terra", "luz"],
+        "img": "pena"
+    },
+    {
+        "nome": "Pena",
+        "nivel": [4],
+        "mod": 2,
+        "elemento": "terra",
+        "proxMod": 2,
+        "proxElem": ["agua", "luz"],
+        "img": "pena"
+    },
+    {
+        "nome": "Pena",
+        "nivel": [5],
+        "mod": 2,
+        "elemento": "agua",
+        "proxMod": 2,
+        "proxElem": ["fogo", "luz"],
+        "img": "pena"
+    },
+    {
+        "nome": "Pena",
+        "nivel": [6],
+        "mod": 0,
+        "elemento": "fogo",
+        "proxMod": 2,
+        "proxElem": ["vento", "luz"],
+        "img": "pena"
+    },
+    {
+        "nome": "Pena",
+        "nivel": [7],
+        "mod": 0,
+        "elemento": "vento",
+        "proxMod": 2,
+        "proxElem": ["terra", "luz"],
+        "img": "pena"
+    },
+    {
+        "nome": "Pena",
+        "nivel": [8],
+        "mod": 1,
+        "elemento": "terra",
+        "proxMod": 2,
+        "proxElem": ["agua", "luz"],
+        "img": "pena"
+    },
+    {
+        "nome": "Pena",
+        "nivel": [9],
+        "mod": 1,
+        "elemento": "luz",
+        "proxMod": 2,
+        "proxElem": ["escuridao"],
+        "img": "pena"
+    },
+    {
+        "nome": "Pena",
+        "nivel": [10],
+        "mod": 2,
+        "elemento": "escuridao",
+        "proxMod": 2,
+        "proxElem": ["agua", "fogo", "vento", "terra"],
+        "img": "pena"
+    },
+    {
+        "nome": "Furacao",
+        "nivel": [3, 9],
+        "mod": 1,
+        "elemento": "vento",
+        "proxMod": 1,
+        "proxElem": ["terra", "luz"],
+        "img": "furacao"
+    },
+    {
+        "nome": "Furacao",
+        "nivel": [5, 10],
+        "mod": 2,
+        "elemento": "vento",
+        "proxMod": 1,
+        "proxElem": ["terra", "luz"],
+        "img": "furacao"
+    },
+    {
+        "nome": "Furacao",
+        "nivel": [7],
+        "mod": 0,
+        "elemento": "vento",
+        "proxMod": 1,
+        "proxElem": ["terra", "luz"],
+        "img": "furacao"
+    },
+    {
+        "nome": "Meteorito",
+        "nivel": [3, 9],
+        "mod": 1,
+        "elemento": "terra",
+        "proxMod": 1,
+        "proxElem": ["agua", "luz"],
+        "img": "meteorito"
+    },
+    {
+        "nome": "Meteorito",
+        "nivel": [5, 10],
+        "mod": 2,
+        "elemento": "terra",
+        "proxMod": 1,
+        "proxElem": ["agua", "luz"],
+        "img": "meteorito"
+    },
+    {
+        "nome": "Meteorito",
+        "nivel": [7],
+        "mod": 0,
+        "elemento": "terra",
+        "proxMod": 1,
+        "proxElem": ["agua", "luz"],
+        "img": "meteorito"
+    },
+    {
+        "nome": "Estalactite",
+        "nivel": [3, 9],
+        "mod": 1,
+        "elemento": "agua",
+        "proxMod": 1,
+        "proxElem": ["fogo", "luz"],
+        "img": "estalactite"
+    },
+    {
+        "nome": "Estalactite",
+        "nivel": [5, 10],
+        "mod": 2,
+        "elemento": "agua",
+        "proxMod": 1,
+        "proxElem": ["fogo", "luz"],
+        "img": "estalactite"
+    },
+    {
+        "nome": "Estalactite",
+        "nivel": [7],
+        "mod": 0,
+        "elemento": "agua",
+        "proxMod": 1,
+        "proxElem": ["fogo", "luz"],
+        "img": "estalactite"
+    },
+    {
+        "nome": "Explosao",
+        "nivel": [3, 9],
+        "mod": 1,
+        "elemento": "fogo",
+        "proxMod": 1,
+        "proxElem": ["vento", "luz"],
+        "img": "explosao"
+    },
+    {
+        "nome": "Explosao",
+        "nivel": [5, 10],
+        "mod": 2,
+        "elemento": "fogo",
+        "proxMod": 1,
+        "proxElem": ["vento", "luz"],
+        "img": "explosao"
+    },
+    {
+        "nome": "Explosao",
+        "nivel": [7],
+        "mod": 0,
+        "elemento": "fogo",
+        "proxMod": 1,
+        "proxElem": ["vento", "luz"],
+        "img": "explosao"
+    },
+    {
+        "nome": "Vento Suave",
+        "nivel": [1],
+        "mod": 0,
+        "elemento": "vento",
+        "proxMod": 0,
+        "proxElem": ["terra", "luz"],
+        "img": "vento"
+    },
+    {
+        "nome": "Vento Suave",
+        "nivel": [3, 7, 10],
+        "mod": 1,
+        "elemento": "vento",
+        "proxMod": 0,
+        "proxElem": ["terra", "luz"],
+        "img": "vento"
+    },
+    {
+        "nome": "Vento Suave",
+        "nivel": [5, 9],
+        "mod": 2,
+        "elemento": "vento",
+        "proxMod": 0,
+        "proxElem": ["terra", "luz"],
+        "img": "vento"
+    },
+    {
+        "nome": "Furia da Terra",
+        "nivel": [1],
+        "mod": 0,
+        "elemento": "terra",
+        "proxMod": 0,
+        "proxElem": ["agua", "luz"],
+        "img": "terra"
+    },
+    {
+        "nome": "Furia da Terra",
+        "nivel": [3, 7, 10],
+        "mod": 1,
+        "elemento": "terra",
+        "proxMod": 0,
+        "proxElem": ["agua", "luz"],
+        "img": "terra"
+    },
+    {
+        "nome": "Furia da Terra",
+        "nivel": [5, 9],
+        "mod": 2,
+        "elemento": "terra",
+        "proxMod": 0,
+        "proxElem": ["agua", "luz"],
+        "img": "terra"
+    },
+    {
+        "nome": "Ondas Raivosas",
+        "nivel": [1],
+        "mod": 0,
+        "elemento": "agua",
+        "proxMod": 0,
+        "proxElem": ["fogo", "luz"],
+        "img": "ondas"
+    },
+    {
+        "nome": "Ondas Raivosas",
+        "nivel": [3, 7, 10],
+        "mod": 1,
+        "elemento": "agua",
+        "proxMod": 0,
+        "proxElem": ["fogo", "luz"],
+        "img": "ondas"
+    },
+    {
+        "nome": "Ondas Raivosas",
+        "nivel": [5, 9],
+        "mod": 2,
+        "elemento": "agua",
+        "proxMod": 0,
+        "proxElem": ["fogo", "luz"],
+        "img": "ondas"
+    },
+    {
+        "nome": "Furia das Chamas",
+        "nivel": [1],
+        "mod": 0,
+        "elemento": "fogo",
+        "proxMod": 0,
+        "proxElem": ["vento", "luz"],
+        "img": "chamas"
+    },
+    {
+        "nome": "Furia das Chamas",
+        "nivel": [3, 7, 10],
+        "mod": 1,
+        "elemento": "fogo",
+        "proxMod": 0,
+        "proxElem": ["vento", "luz"],
+        "img": "chamas"
+    },
+    {
+        "nome": "Furia das Chamas",
+        "nivel": [5, 9],
+        "mod": 2,
+        "elemento": "fogo",
+        "proxMod": 0,
+        "proxElem": ["vento", "luz"],
+        "img": "chamas"
+    },
+    {
+        "nome": "Lago das Estrelas",
+        "nivel": [1],
+        "mod": 0,
+        "elemento": "escuridao",
+        "proxMod": 0,
+        "proxElem": ["agua", "fogo", "vento", "terra"],
+        "img": "lago"
+    },
+    {
+        "nome": "Lago das Estrelas",
+        "nivel": [4, 8],
+        "mod": 1,
+        "elemento": "escuridao",
+        "proxMod": 0,
+        "proxElem": ["agua", "fogo", "vento", "terra"],
+        "img": "lago"
+    },
+    {
+        "nome": "Lago das Estrelas",
+        "nivel": [5, 9],
+        "mod": 1,
+        "elemento": "luz",
+        "proxMod": 0,
+        "proxElem": ["escuridao"],
+        "img": "lago"
+    },
+    {
+        "nome": "Lago das Estrelas",
+        "nivel": [3],
+        "mod": 2,
+        "elemento": "escuridao",
+        "proxMod": 0,
+        "proxElem": ["agua", "fogo", "vento", "terra"],
+        "img": "lago"
+    },
+    {
+        "nome": "Lago das Estrelas",
+        "nivel": [7, 10],
+        "mod": 2,
+        "elemento": "luz",
+        "proxMod": 0,
+        "proxElem": ["escuridao"],
+        "img": "lago"
+    }
+]

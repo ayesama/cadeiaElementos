@@ -1,0 +1,34 @@
+@media only screen and (max-width: 360px) {
+    .magia__box {
+        margin: 15px;
+    }
+}
+.magia__box {
+    display: flex;
+    flex-direction: row;
+    width: 175px;
+    align-items: center;
+    cursor: pointer;
+}
+.magia__box:hover {
+    background-color: rgb(50, 50, 50);
+}
+.magia__box:active {
+    background-color: rgb(70, 70, 70);
+}
+.magia__img {
+    margin-left: 5px;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.magia__txt {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 10px;
+    font-size: .85em;
+}
+.elemento {
+    text-transform: capitalize;
+}
